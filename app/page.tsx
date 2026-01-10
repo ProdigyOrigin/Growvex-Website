@@ -43,14 +43,14 @@ export default function Home() {
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
                 <a
-                  href="#free-growth-plan"
+                  href="mailto:growvexbrands@gmail.com"
                   className="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-semibold text-zinc-950 shadow-lg shadow-white/10 ring-1 ring-white/10 transition hover:-translate-y-0.5 hover:bg-zinc-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
                 >
                   Get a free growth plan
                 </a>
 
                 <p className="text-sm text-zinc-400">
-                  No hype. Just clear steps to drive revenue.
+                  Or email us: <a href="mailto:growvexbrands@gmail.com" className="text-zinc-200 hover:text-white transition">growvexbrands@gmail.com</a>
                 </p>
               </div>
             </div>
@@ -403,30 +403,31 @@ export default function Home() {
 
                   <div className="mt-6 flex flex-col gap-3">
                     <a
-                      href="#book-a-call"
+                      href="mailto:growvexbrands@gmail.com"
                       className="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-semibold text-zinc-950 shadow-lg shadow-white/10 ring-1 ring-white/10 transition hover:-translate-y-0.5 hover:bg-zinc-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300"
                     >
                       Book a call
                     </a>
 
                     <a
-                      href="#how-it-works"
+                      href="mailto:growvexbrands@gmail.com"
                       className="inline-flex items-center justify-center rounded-xl border border-white/15 bg-white/0 px-5 py-3 text-sm font-semibold text-zinc-100 ring-1 ring-white/10 transition hover:-translate-y-0.5 hover:bg-white/5 focus:outline-none focus-visible:ring-2 focus-visible:ring-fuchsia-300"
                     >
-                      See how it works
+                      Email us directly
                     </a>
 
                     <div className="mt-1 flex items-center justify-between text-xs text-zinc-400">
                       <span id="book-a-call">Fast response</span>
-                      <span id="how-it-works">Clear weekly cadence</span>
+                      <span id="how-it-works">growvexbrands@gmail.com</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="relative mt-10 border-t border-white/10 pt-6 text-xs text-zinc-400">
-              growvex — ads, brand, and sales working as one.
+            <div className="relative mt-10 border-t border-white/10 pt-6 text-xs text-zinc-400 flex flex-col sm:flex-row sm:justify-between gap-4">
+              <span>growvex — ads, brand, and sales working as one.</span>
+              <a href="mailto:growvexbrands@gmail.com" className="hover:text-zinc-200 transition">growvexbrands@gmail.com</a>
             </div>
           </div>
         </div>
